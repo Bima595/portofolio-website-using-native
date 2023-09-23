@@ -43,15 +43,132 @@ nav {
 }
 
 .profile-image {
-position: absolute;
-top: 0;
-left: 0;
-margin-top: -302px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -302px;
 }
 
-.text-home h1{
-    float: right;
-    margin-top: -400px;
-    margin-right: 200px;
+.first {
+  float: right;
+  margin-top: -400px;
+  margin-right: 200px;
 }
 
+.sec {
+  float: right;
+  margin-top: -350px;
+  margin-right: 200px;
+}
+
+.first {
+  margin-right: 50px;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 4px;
+}
+
+.sec {
+  margin-top: -340px;
+  margin-right: 500px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 4px;
+}
+
+.third {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 790px;
+}
+
+span {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+}
+.text-home p {
+  font-size: 50px;
+  font-weight: bold;
+  color: burlywood;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Gaya dasar untuk tombol */
+.button-home {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 1080px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: #3498db;
+  border-radius: 30px;
+  color: #3498db;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button-home:hover {
+  background-color: #3498db;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.about-me{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 100px;
+    font-family: 'Space Mono', monospace;
+}
+
+.about-me-sec{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-family: 'Space Mono', monospace;
+}
+
+.about-me-third{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: -7px;
+    font-family: 'Space Mono', monospace;
+}
+
+.about-me-fourth{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: -7px;
+    font-family: 'Space Mono', monospace;
+}
+
+.about-me-fifth{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: -7px;
+    font-family: 'Space Mono', monospace;
+}
+.box-about {
+    width: 1300px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: #cdbdbd;;
+    margin-top: 300px;
+    margin-left: 95px;
+}
+
+.img-about{
+    position: absolute;
+    width: 408px;
+    height: 612px;
+    flex-shrink: 0;
+    margin-top: -12px;
+    margin-left: 850px;
+}
