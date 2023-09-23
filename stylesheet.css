@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ad8a8a;
+}
+
+nav {
+  background-color: #cdbdbd;
+  padding: 30px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  opacity: 100;
+}
+.container a:active {
+  color: white;
+}
+.container li {
+  list-style: none;
+  display: inline-table;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.container a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.asset-home {
+  margin-top: 250px;
+  margin-left: 50px;
+  width: 708px;
+  height: 473px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #cdbdbd;
+  position: relative;
+}
+
+.profile-image {
+position: absolute;
+top: 0;
+left: 0;
+margin-top: -302px;
+}
+
+.text-home h1{
+    float: right;
+    margin-top: -400px;
+    margin-right: 200px;
+}
+
