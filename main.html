@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
     </style>
@@ -13,7 +14,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
     </style>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
     </style>
     <title>Document</title>
 </head>
@@ -26,9 +27,6 @@
             </li>
             <li>
                 <a href="#About">About</a>
-            </li>
-            <li>
-                <a href="">Hobby</a>
             </li>
             <li>
                 <a href="">Skill</a>
@@ -59,21 +57,59 @@
             <div class="circle2"></div>
             <img src="assets/picture/2022_07_17_16_45_IMG_4771-removebg-preview.png" alt="" class="img-about">
             <h1 class="about-title">Hellow Guys!!!</h1>
-            <p class="about-me">I am a semester 5 student at Muhammadiyah University of Malang with</p>
-            <p class="about-me-sec"> multiple internship experiences within campus organizations, including</p>
-            <p class="about-me-third">holding the position of Head Staff in the Social Media division. I possess
+            <p class="about-me">I am a semester 5 student at Muhammadiyah University of Malang with multiple internship
             </p>
-            <p class="about-me-fourth">excellent skills in data manipulation using SQL and have a keen interest in UI/UX
+            <p class="about-me-sec"> experiences within campus organizations, including holding the position of Head
+                Staff in</p>
+            <p class="about-me-third"> Social Media division. I possess excellent skills in data manipulation using SQL
+                and have
             </p>
-            <p class="about-me-fifth"> Design. My career aspirations are focused on the Back-End feld and the industrial
+            <p class="about-me-fourth"> a keen interest in UI/UX Design. My career aspirations are focused on the
+                Back-End feld
             </p>
-            <p class="about-me-six">sector, particularly in data processing, while also remaining open to other</p>
-            <p class="about-me-seven"> career opportunities.</p>
+            <p class="about-me-fifth"> and the industrial sector, particularly in data processing, while also remaining
+                open to other
+            </p>
+            <p class="about-me-six"> career opportunities.</p>
             <h1 class="edu">Education History</h1>
             <div class="garis-about"></div>
+            <div class="sma">
+                <h3>SMAN 2 Cepu</h3>
+            </div>
+            <div class="wilayah-s"> 2021 • now Malang, East Java, Indonesia</div>
+            <div class="kuliah">
+                <h3>University Muhammadiyah Malang</h3>
+            </div>
+            <div class="wilayah-k"> 2018 • 2021 Blora, Central Java, Indonesia</div>
         </div>
+        <h1 class="my">Skill</h1>
+        <h1 class="hb">Hobby</h1>
         <div>
         </div>
+    </div>
+    <!--Contact us-->
+    <div id="frmContact" class="contact">
+        <div id="mail-status"></div>
+        <div>
+            <label style="padding-top:40px;" style="height: 50px;">Name</label><span id="userName-info" class="info"></span><br/>
+            <input type="text" name="userName" id="userName" class="demoInputBox" style="margin-top: 10px;">
+        </div>
+        <div>
+            <label>Email</label><span id="userEmail-info" class="info"></span><br/>
+            <input type="text" name="userEmail" id="userEmail" class="demoInputBox" style="margin-top: 10px;">
+        </div>
+        <div>
+            <label>Subject</label><span id="subject-info" class="info"></span><br/>
+            <input type="text" name="subject" id="subject" class="demoInputBox" style="margin-top: 10px;">
+        </div>
+        <div>
+            <label>Content</label><span id="content-info" class="info" ></span><br/>
+            <textarea name="content" id="content" class="demoInputBox" cols="60" rows="6" style="margin-top: 10px;"></textarea>
+        </div>
+        <div>
+            <button name="submit" class="btnAction" onClick="sendContact();">Send</button>
+        </div>
+    </div>
     </div>
 </body>
 

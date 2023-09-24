@@ -93,7 +93,6 @@ span {
   font-family: "Bebas Neue", sans-serif;
 }
 
-
 .button-home {
   width: 170px;
   height: 60px;
@@ -124,7 +123,7 @@ span {
   font-size: 18px;
   margin-left: 30px;
   margin-top: 180px;
-  font-family: "Space Mono", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-sec {
@@ -133,7 +132,7 @@ span {
   font-size: 18px;
   margin-left: 30px;
   margin-top: 207px;
-  font-family: "Space Mono", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-third {
@@ -142,7 +141,7 @@ span {
   font-size: 18px;
   margin-left: 30px;
   margin-top: 236px;
-  font-family: "Space Mono", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-fourth {
@@ -151,7 +150,7 @@ span {
   font-size: 18px;
   margin-left: 30px;
   margin-top: 263px;
-  font-family: "Space Mono", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-fifth {
@@ -160,7 +159,7 @@ span {
   font-size: 18px;
   margin-left: 30px;
   margin-top: 288px;
-  font-family: "Space Mono", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-six {
@@ -169,7 +168,7 @@ span {
   font-size: 18px;
   margin-left: 30px;
   margin-top: 314px;
-  font-family: "Space Mono", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-seven {
@@ -178,7 +177,7 @@ span {
   font-size: 18px;
   margin-left: 30px;
   margin-top: 337px;
-  font-family: "Space Mono", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 .box-about {
@@ -196,7 +195,7 @@ span {
   font-size: 40px;
   margin-left: 35px;
   margin-top: 40px;
-  font-family: "Croissant One", cursive;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
 }
 
@@ -206,7 +205,7 @@ span {
   font-size: 40px;
   margin-left: 35px;
   margin-top: 390px;
-  font-family: "Croissant One", cursive;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
 }
 
@@ -242,7 +241,7 @@ span {
   margin-left: 850px;
 }
 
-.garis-about{
+.garis-about {
   position: absolute;
   background-color: black;
   width: 5px;
@@ -251,4 +250,83 @@ span {
   margin-top: 450px;
   margin-left: 61px;
   border-radius: 20000px;
+}
+
+.sma {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 430px;
+  margin-left: 80px;
+  font-family: "Inter", sans-serif;
+}
+
+.kuliah {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 500px;
+  margin-left: 80px;
+  font-family: "Inter", sans-serif;
+}
+.wilayah-s{
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 470px;
+  margin-left: 80px;
+  font-family: "Work Sans", sans-serif;
+}
+.wilayah-k {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 540px;
+  margin-left: 80px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.my{
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-top: 100px;
+  font-weight: bold;
+  color:#ffffff;
+  font-family: "Inter", sans-serif;
+}
+.hb{
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 1250px;
+  margin-top: 100px;
+  font-weight: bold;
+  color:#ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.s{
+  position: absolute;
+  font-weight: bold;
+  margin-left: 450px;
+  margin-top: 455px;
+  font-weight: bold;
+  color: black;
+}
+
+.h{
+  position: absolute;
+  font-weight: bold;
+  margin-left: 700px;
+  margin-top: 455px;
+  font-weight: bold;
+  color: black;
+}
+
+.contact{
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 100px;
 }
