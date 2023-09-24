@@ -15,6 +15,7 @@ nav {
   z-index: 1000;
   opacity: 100;
 }
+
 .container a:active {
   color: white;
 }
@@ -92,22 +93,23 @@ span {
   font-family: "Bebas Neue", sans-serif;
 }
 
-/* Gaya dasar untuk tombol */
+
 .button-home {
+  width: 170px;
+  height: 60px;
   position: absolute;
-  margin-top: -200px;
-  margin-left: 1080px;
+  margin-top: -230px;
+  margin-left: 800px;
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
   border: #3498db;
-  border-radius: 30px;
+  border-style: groove;
   color: #3498db;
   background-color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .button-home:hover {
@@ -116,59 +118,137 @@ span {
   border-color: #ffffff;
 }
 
-.about-me{
-    color: #ffffff;
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: 100px;
-    font-family: 'Space Mono', monospace;
+.about-me {
+  position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 180px;
+  font-family: "Space Mono", monospace;
 }
 
-.about-me-sec{
-    color: #ffffff;
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: -10px;
-    font-family: 'Space Mono', monospace;
+.about-me-sec {
+  position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 207px;
+  font-family: "Space Mono", monospace;
 }
 
-.about-me-third{
-    color: #ffffff;
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: -7px;
-    font-family: 'Space Mono', monospace;
+.about-me-third {
+  position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 236px;
+  font-family: "Space Mono", monospace;
 }
 
-.about-me-fourth{
-    color: #ffffff;
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: -7px;
-    font-family: 'Space Mono', monospace;
+.about-me-fourth {
+  position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 263px;
+  font-family: "Space Mono", monospace;
 }
 
-.about-me-fifth{
-    color: #ffffff;
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: -7px;
-    font-family: 'Space Mono', monospace;
+.about-me-fifth {
+  position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 288px;
+  font-family: "Space Mono", monospace;
 }
+
+.about-me-six {
+  position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 314px;
+  font-family: "Space Mono", monospace;
+}
+
+.about-me-seven {
+  position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 337px;
+  font-family: "Space Mono", monospace;
+}
+
 .box-about {
-    width: 1300px;
-    height: 600px;
-    border-radius: 30px;
-    background-color: #cdbdbd;;
-    margin-top: 300px;
-    margin-left: 95px;
+  width: 1300px;
+  height: 600px;
+  border-radius: 30px;
+  background-color: #cdbdbd;
+  margin-top: 300px;
+  margin-left: 95px;
 }
 
-.img-about{
-    position: absolute;
-    width: 408px;
-    height: 612px;
-    flex-shrink: 0;
-    margin-top: -12px;
-    margin-left: 850px;
+.about-title {
+  position: absolute;
+  color: #ffffff;
+  font-size: 40px;
+  margin-left: 35px;
+  margin-top: 40px;
+  font-family: "Croissant One", cursive;
+  font-weight: bold;
+}
+
+.edu {
+  position: absolute;
+  color: #ffffff;
+  font-size: 40px;
+  margin-left: 35px;
+  margin-top: 390px;
+  font-family: "Croissant One", cursive;
+  font-weight: bold;
+}
+
+.circle {
+  position: absolute;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  z-index: 1000;
+  margin-top: 470px;
+  margin-left: 56px;
+  border-radius: 20000px;
+}
+
+.circle2 {
+  position: absolute;
+  background-color: white;
+  z-index: 10;
+  width: 15px;
+  height: 15px;
+  z-index: 1000;
+  margin-top: 530px;
+  margin-left: 56px;
+  border-radius: 20000px;
+}
+
+.img-about {
+  position: absolute;
+  width: 408px;
+  height: 612px;
+  flex-shrink: 0;
+  margin-top: -12px;
+  margin-left: 850px;
+}
+
+.garis-about{
+  position: absolute;
+  background-color: black;
+  width: 5px;
+  height: 120px;
+  z-index: 100;
+  margin-top: 450px;
+  margin-left: 61px;
+  border-radius: 20000px;
 }
