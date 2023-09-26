@@ -269,7 +269,7 @@ span {
   margin-left: 80px;
   font-family: "Inter", sans-serif;
 }
-.wilayah-s{
+.wilayah-s {
   position: absolute;
   font-size: 15px;
   font-weight: bold;
@@ -286,28 +286,28 @@ span {
   font-family: "Work Sans", sans-serif;
 }
 
-.my{
+.my {
   position: absolute;
   font-size: 40px;
   font-weight: bold;
   margin-left: 150px;
   margin-top: 100px;
   font-weight: bold;
-  color:#ffffff;
+  color: #ffffff;
   font-family: "Inter", sans-serif;
 }
-.hb{
+.hb {
   position: absolute;
   font-size: 40px;
   font-weight: bold;
   margin-left: 1250px;
   margin-top: 100px;
   font-weight: bold;
-  color:#ffffff;
+  color: #ffffff;
   font-family: "Inter", sans-serif;
 }
 
-.s{
+.s {
   position: absolute;
   font-weight: bold;
   margin-left: 450px;
@@ -316,7 +316,7 @@ span {
   color: black;
 }
 
-.h{
+.h {
   position: absolute;
   font-weight: bold;
   margin-left: 700px;
@@ -325,8 +325,107 @@ span {
   color: black;
 }
 
-.contact{
+.contact {
   position: absolute;
   margin-top: 1000px;
   margin-left: 100px;
+}
+
+.img-html {
+  width: 70px;
+  height: 80px;
+  margin-top: 200px;
+  margin-left: 60px;
+}
+
+.css {
+  width: 50px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.sql {
+  width: 80px;
+  height: 80px;
+}
+
+.js {
+  width: 80px;
+  height: 80px;
+  margin-top: 200px;
+  margin-left: 60px;
+}
+
+.figma {
+  width: 80px;
+  height: 80px;
+}
+
+.c {
+  width: 80px;
+  height: 80px;
+}
+
+/* Styles for the pop-up */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.popup-content {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  text-align: center;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+.skill{
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-top: -130px;
+  margin-left: 550px;
+}
+
+.hobby{
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 850px;
+  width: 200px;
+  height: 60px;
 }

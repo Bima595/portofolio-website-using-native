@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/30a2686d44.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
     </style>
@@ -27,9 +28,6 @@
             </li>
             <li>
                 <a href="#About">About</a>
-            </li>
-            <li>
-                <a href="">Skill</a>
             </li>
             <li>
                 <a href="">Contact</a>
@@ -82,35 +80,48 @@
             </div>
             <div class="wilayah-k"> 2018 • 2021 Blora, Central Java, Indonesia</div>
         </div>
-        <h1 class="my">Skill</h1>
-        <h1 class="hb">Hobby</h1>
-        <div>
-        </div>
+        <br>
+        <br>
+        
     </div>
+
+    <!-- <h1 id="Skill" class="my">Skill</h1>
+    <h1 class="hb">Hobby</h1> -->
+    <!-- <div>
+        <img src="assets/picture/5847f5bdcef1014c0b5e489c.png" alt="" class="img-html">
+        <img src="assets/picture/html5-logo-31821.png" alt="" class="css">
+        <img src="assets/picture/javascript-logo-transparent-logo-javascript-images-3.png" alt="" class="js">
+        <img src="assets/picture/Sql_data_base_with_logo.png" alt="" class="sql">
+        <img src="assets/picture/695px-C_Programming_Language.svg.png" alt="" class="c">
+        <img src="assets/picture/2f4e4570-ef9e-4fbf-9cfc-4fb952c47385-cover.png" alt="" class="figma">
+    </div> -->
+
+    <button id="showListButton1" class="skill">My Skill</button>
+        <button id="showListButton2" class="hobby">My Hobby</button>
+
+        <!-- First Pop-up -->
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <span id="closePopup1" class="close-popup">&times;</span>
+                <h2>SKILL</h2>
+                <ul id="nameList1"></ul>
+            </div>
+        </div>
+
+        <!-- Second Pop-up -->
+        <div id="popup2" class="popup">
+            <div class="popup-content">
+                <span id="closePopup2" class="close-popup">&times;</span>
+                <h2>HOBBY</h2>
+                <ul id="nameList2"></ul>
+            </div>
+        </div>
+
     <!--Contact us-->
-    <div id="frmContact" class="contact">
-        <div id="mail-status"></div>
-        <div>
-            <label style="padding-top:40px;" style="height: 50px;">Name</label><span id="userName-info" class="info"></span><br/>
-            <input type="text" name="userName" id="userName" class="demoInputBox" style="margin-top: 10px;">
-        </div>
-        <div>
-            <label>Email</label><span id="userEmail-info" class="info"></span><br/>
-            <input type="text" name="userEmail" id="userEmail" class="demoInputBox" style="margin-top: 10px;">
-        </div>
-        <div>
-            <label>Subject</label><span id="subject-info" class="info"></span><br/>
-            <input type="text" name="subject" id="subject" class="demoInputBox" style="margin-top: 10px;">
-        </div>
-        <div>
-            <label>Content</label><span id="content-info" class="info" ></span><br/>
-            <textarea name="content" id="content" class="demoInputBox" cols="60" rows="6" style="margin-top: 10px;"></textarea>
-        </div>
-        <div>
-            <button name="submit" class="btnAction" onClick="sendContact();">Send</button>
-        </div>
-    </div>
-    </div>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
