@@ -194,7 +194,7 @@ span {
   color: #ffffff;
   font-size: 40px;
   margin-left: 35px;
-  margin-top: 40px;
+  margin-top: 80px;
   font-family: "Inter", sans-serif;
   font-weight: bold;
 }
@@ -331,42 +331,6 @@ span {
   margin-left: 100px;
 }
 
-.img-html {
-  width: 70px;
-  height: 80px;
-  margin-top: 200px;
-  margin-left: 60px;
-}
-
-.css {
-  width: 50px;
-  height: 70px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.sql {
-  width: 80px;
-  height: 80px;
-}
-
-.js {
-  width: 80px;
-  height: 80px;
-  margin-top: 200px;
-  margin-left: 60px;
-}
-
-.figma {
-  width: 80px;
-  height: 80px;
-}
-
-.c {
-  width: 80px;
-  height: 80px;
-}
-
 /* Styles for the pop-up */
 .popup {
   display: none;
@@ -400,9 +364,7 @@ span {
   cursor: pointer;
 }
 
-
-
-.skill{
+.skill {
   margin: 20px;
   padding: 10px 20px;
   background-color: orange;
@@ -416,7 +378,7 @@ span {
   margin-left: 550px;
 }
 
-.hobby{
+.hobby {
   margin: 20px;
   padding: 10px 20px;
   background-color: orange;
@@ -428,4 +390,32 @@ span {
   margin-left: 850px;
   width: 200px;
   height: 60px;
+}
+
+.contact-title {
+  margin-left: 100px;
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+}
+
+.ig {
+  position: absolute;
+  margin-bottom: 50px;
+  margin-top: -25px;
+  margin-left: 150px;
+  font-family: "Mukta", sans-serif;
+}
+
+.link-ig {
+  position: absolute;
+  margin-top: 25px;
+  color: black;
+  text-decoration: none;
+  font-family: "Mukta", sans-serif;
+  margin-left: -15px;
+}
+
+.fa-regular {
+  margin-top: 80px;
+  position: absolute;
 }
