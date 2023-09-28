@@ -20,11 +20,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+    </style>
     <title>Document</title>
 </head>
 
 <body>
     <nav>
+        <img src="assets/picture/PNG image 3.png" alt="" class="img-nv">
         <div class="container">
             <li>
                 <a href="#home">Home</a>
@@ -45,12 +49,14 @@
             </div>
         </div>
     </div>
+    
     <div class="text-home">
-        <h1 class="first">Satria A<span>bima</span>nyu Putra Wijayatama</h1>
+        <h1 class="first">Satria A<span class="bima">bima</span>nyu Putra Wijayatama</h1>
         <h2 class="sec">(Junior Programmer)</h2>
         <h5 class="third">Don't wait any longer, let's kick things off.</h5>
     </div>
-    <button class="button-home">Lets Start It !!!</button>
+    <button href="#About" class="button-home" >Lets Start It !!!</button>
+    <button class="cv"onclick="location.href='assets/doc/Satria-Abimanyu-Putra-WIjayatama-Resume.pdf'" type="button">Download My Resume</button>
     <!--About-->
     <div class="about" id="About">
         <div class="box-about">
@@ -87,18 +93,7 @@
         <br>
 
     </div>
-
-    <!-- <h1 id="Skill" class="my">Skill</h1>
-    <h1 class="hb">Hobby</h1> -->
-    <!-- <div>
-        <img src="assets/picture/5847f5bdcef1014c0b5e489c.png" alt="" class="img-html">
-        <img src="assets/picture/html5-logo-31821.png" alt="" class="css">
-        <img src="assets/picture/javascript-logo-transparent-logo-javascript-images-3.png" alt="" class="js">
-        <img src="assets/picture/Sql_data_base_with_logo.png" alt="" class="sql">
-        <img src="assets/picture/695px-C_Programming_Language.svg.png" alt="" class="c">
-        <img src="assets/picture/2f4e4570-ef9e-4fbf-9cfc-4fb952c47385-cover.png" alt="" class="figma">
-    </div> -->
-
+    
     <button id="showListButton1" class="skill">My Skill</button>
     <button id="showListButton2" class="hobby">My Hobby</button>
 
@@ -133,35 +128,89 @@
     <br>
     <br>
     <br>
-    <div class="contact-us" id="Contact">
-        <h1 class="contact-title">Contact us :</h1>
-        <i class="fa-brands fa-instagram fa-xl" style="margin-left:120px;" ;"></i>
-        <h3 class="ig">Instagram</h3>
-        <a class="link-ig" href="">@bima_pensi</a>
+    <div>
+        <img src="assets/picture/Vector 4.png" alt="" class="bg">
     </div>
-    <i class="fa-regular fa-envelope fa-xl" style="margin-left:120px;" ></i>
+    <div class="container-contact">
+        <div class="contact-us" id="Contact">
+            <h1 class="contact-title">Contact us :</h1>
+            <i class="fa-brands fa-instagram fa-xl" style="margin-left:120px;" ;"></i>
+            <h3 class="ig">Instagram</h3>
+            <a class="link-ig" href="">@bima_pensi</a>
+            <i class="fa-regular fa-envelope fa-xl" style="margin-left:-21px;"></i>
+            <h3 class="email-title">Email</h3>
+            <a href="mailto:Satriaabimanyu595@gmail.com?" class="email-link">Satriaabimanyu595@gmail.com</a>
+            <br><br><br><br><br><br><br><br><i class="fa-brands fa-linkedin fa-xl" style="margin-left:120px;"></i>
+            <h3 class="linked-tittle">linkedin</h3>
+            <a href="https://www.linkedin.com/in/satriaabimanyu/"
+                class="linkin">https://www.linkedin.com/in/satriaabimanyu/</a>
+            <br><br><br><br><br><i class="fa-solid fa-square-phone fa-xl" style="margin-left:120px;"></i>
+            <h3 class="phone">Phone</h3>
+            <a href="" class="no">+62 821-3500-8441</a>
+            <br><br><br><i class="fa-solid fa-location-dot fa-xl" style="margin-left:120px;"></i>
+            <h3 class="lokasi">Location</h3>
+            <a href="https://maps.app.goo.gl/vhX33182dRtQqAMC7" class="map">Blora, Kedungtuban, Bajo, Central Java</a>
+        </div>
+    </div>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
 
     <!--footer-->
-    <footer>
-
+    <footer class="container-footer">
+        <div class="container-footer w-container">
+            <div class="w-row">
+                <div class="footer-column w-clearfix w-col w-col-4"><a href="#home"><img
+                    src="assets/picture/PNG image.png" 
+                    alt="" style="margin-right: 10px;" width="60" class="failory-logo-image"></a>
+                    <h3 class="footer-failory-name">Bon Bon</h3>
+                    <p class="footer-description-failory">Satria Abimanyu Putra Wijayatama<br></p>
+                </div>
+                <div class="footer-column w-col w-col-8">
+                    <div class="w-row">
+                        <div class="w-col w-col-8">
+                            <div class="w-row">
+                                <div class="w-col w-col-7 w-col-small-6 w-col-tiny-7">
+                                    <h3 class="footer-titles">My Project</h3>
+                                    <p class="footer-links"><a href="" target="_blank"><span class="footer-link">FoodCare
+                                                UI/UX<br></span></a><a href=""><span class="footer-link">Make CRUD
+                                                Lab Using Java<br></span></a><a href=""><span
+                                                class="footer-link">Cashier Using C Programming</span></a><span><br></span><a href=""><span></span>
+                                </div>
+                                <div class="w-col w-col-5 w-col-small-6 w-col-tiny-5">
+                                    <h3 class="footer-titles">Other</h3>
+                                    <p class="footer-links"><a href=""><span class="footer-link">My Certification
+                                                <br></span></a><a href=""><span class="footer-link">My
+                                                Github<br></span></a><a href=""><span class="footer-link"></span></a><a
+                                            href=""><span class="footer-link">Contribute<br></span></a><a href=""><span
+                                                class="footer-link">FAQ</span></a><strong><br></strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-center-mobile w-col w-col-4">
+                            <h3 class="footer-titles">Follow Me!</h3><a href="" target="_blank"
+                                class="footer-social-network-icons w-inline-block"><img
+                                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbf0a2f2b67e3b3ba079c_Twitter%20Icon.svg"
+                                    width="20" alt="Twitter icon"></a><a href="https://twitter.com/itsVonVon" target="_blank"
+                                class="footer-social-network-icons w-inline-block"><img
+                                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbfe70fcf5a0514c5b1da_Instagram%20Icon.svg"
+                                    width="20" alt="Instagram icon"></a><a href="https://instagram.com/bima_pensi?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"
+                                class="footer-social-network-icons w-inline-block"><img
+                                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbe42e1e6034fdaba46f6_Facebook%20Icon.svg"
+                                    width="20" alt="Facebook Icon"></a><a href="https://www.facebook.com/bima.bima.5473?mibextid=LQQJ4d" target="_blank"
+                                class="footer-social-network-icons w-inline-block"><img
+                                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dc0002f2b676eb4ba0869_LinkedIn%20Icon.svg"
+                                    width="20" alt="LinkedIn Icon"></a><a href="https://www.linkedin.com/in/satriaabimanyu/" target="_blank"
+                                class="footer-social-network-icons w-inline-block"><img
+                                    src="
+                                    width="20" alt="" class=""></a>
+                            <p class="footer-description">Email me at: <a href="mailto:satriaabimanyu595@gmail.com?"><strong
+                                        class="link-email-footer">satriaabimanyu595@gmail.com</strong></a><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
